@@ -1,0 +1,8 @@
+{
+  "name": "Musica",
+  "description": "Music to share with friends",
+  "image": "heroku/python",
+  "repository": "https://github.com/rajat19/Musica",
+  "keywords": ["python", "django" ],
+  "addons": [ "heroku-postgresql" ]
+}
