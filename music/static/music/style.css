@@ -1,0 +1,12 @@
+body {
+	font-family: 'Exo' !important;
+	background-color: #ddd !important;
+}
+
+.navbar {
+	border-radius: 0 !important;
+}
+
+.navbar-brand {
+	font-family: 'Satisfy', cursive;
+}
