@@ -1,5 +1,5 @@
-*.rb linguist-language=Python
-
+* linguist-vendored
+*.py linguist-vendored=false
 # Auto detect text files and perform LF normalization
 * text=auto
 
