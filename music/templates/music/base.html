@@ -6,29 +6,12 @@
 		{% block title %}Musica{% endblock %}
 	</title>
 	{% load staticfiles %}
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="{% static 'music/style.css' %}">
-	<link rel="stylesheet" type="text/css" href="{% static 'music/bootstrap.min.css' %}">
-	<link rel="stylesheet" type="text/css" href="{% static 'music/fontawe/css/font-awesome.min.css' %}">
-	<style type="text/css">
-		@font-face {
-			font-family: 'Exo';
-			src: local('Exo Regular'),
-			   local('Exo-Regular'),
-			   url({% static 'music/Exo-Regular.ttf' %});
-			font-weight: bold;
-		}
-
-		@font-face {
-			font-family: 'Satisfy';
-			src: local('Satisfy Regular'),
-			   local('Satisfy-Regular'),
-			   url({% static 'music/Satisfy-Regular.ttf' %});
-			font-weight: bold;
-		}
-	</style>
-	<script type="text/javascript" src="{% static 'music/js/jquery.min.js' %}"></script>
-	<script type="text/javascript" src="{% static 'music/js/jquery-ui.min.js' %}"></script>
-	<script type="text/javascript" src="{% static 'music/js/bootstrap.min.js' %}"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<nav class="navbar navbar-inverse">
